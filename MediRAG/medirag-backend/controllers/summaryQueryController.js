@@ -1,4 +1,4 @@
-const { queryPinecone } = require("../utils/searchPinecone");
+const queryPinecone = require("../utils/searchPinecone");
 const fetchFromPubMed = require("../utils/pubmedClient");
 const getLLMAnswer = require("../utils/llmAnswer");
 const Chat = require("../models/chat");
