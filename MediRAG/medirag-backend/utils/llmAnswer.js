@@ -23,7 +23,7 @@ Answer:
     const response = await axios.post(
       "https://api.together.xyz/v1/chat/completions",
       {
-        model: "mistralai/Mistral-7B-Instruct-v0.2",  // light, fast, smart
+        model: "Qwen/Qwen2.5-7B-Instruct-Turbo",  // light, fast, smart
         messages: [
           { role: "system", content: "You are a medical assistant." },
           { role: "user", content: prompt },
